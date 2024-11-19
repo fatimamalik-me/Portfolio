@@ -1270,23 +1270,15 @@ section,
 
 .resume-btn{
   color: var(--contrast-color);
-
-background: var(--accent-color);
-
-border: 0;
-
-padding: 10px 30px;
-
-transition: 0.4s;
-
-border-radius: 50px;
-
-
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
 }
 
 .resume-btn:hover{
   color: #fff;
-  /* font-weight: 700; */
 }
 
 section#testimonials a{
@@ -1296,4 +1288,8 @@ section#testimonials a{
 .bold{
   font-weight: 700 !important;
   color: #000 !important
+}
+
+.mb-25{
+  margin-bottom: 25px !important;
 }
